@@ -1,0 +1,73 @@
+{
+  "name": "my_app_vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.10",
+    "@electron/get": "^3.0.0",
+    "@vue/apollo-composable": "^4.0.1",
+    "@vue/apollo-option": "^4.0.0",
+    "@vue/cli": "^5.0.8",
+    "@vueuse/core": "^10.7.2",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "browserify": "^17.0.0",
+    "core-js": "^3.35.1",
+    "crypto-browserify": "^3.12.0",
+    "graphql": "^15.8.0",
+    "graphql-request": "^6.1.0",
+    "graphql-tag": "^2.12.6",
+    "imdb-id": "^2.0.1",
+    "movier": "^3.0.8",
+    "open": "^10.1.0",
+    "rutracker-api-with-proxy": "^2.0.6",
+    "url": "^0.11.3",
+    "vue": "^3.2.13",
+    "vue-cli": "^2.9.6",
+    "vue-loader": "^17.4.2",
+    "webtorrent": "^2.1.34"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/plugin-syntax-import-attributes": "^7.23.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
+    "electron": "^28.2.0",
+    "electron-devtools-installer": "^3.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-cli-plugin-electron-builder": "^3.0.0-alpha.4",
+    "webpack": "^5.90.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

@@ -1,5 +1,5 @@
-# vue_anime_public
-It is vue application, which can find anime with Shikimori API and can show torrents from rutracker and copy magnet link
+# vue_anime
+Project for downloading(not finished) and watching animes in electron app. This app based on Vue3.
 ## Project setup
 ```
 npm install
@@ -13,3 +13,6 @@ npm run electron:serve
 ```
 npm run electron:build
 ```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
