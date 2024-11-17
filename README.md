@@ -1,5 +1,5 @@
 # vue_anime
-Project for downloading(not finished) and watching animes in electron app. This app based on Vue3.
+Project for downloading(via magnet link) and watching animes in electron app. This app based on Vue3.
 ## Project setup
 ```
 npm install
